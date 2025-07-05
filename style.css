@@ -1,0 +1,334 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+   margin-top: 0px;
+   margin-left: 0px;
+   margin-right:0px;
+   box-sizing:border-box; 
+   font-size:16px;
+   max-width: 1920px;
+}
+
+img,
+iframe {
+max-width: 100%;
+/* so that aspect ratio is kept even if height is declared in markup */ 
+border: 0;
+/* this stops a border if the image is inside a link */
+}
+
+
+body{
+  font-family: "Edu SA Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 440;
+  font-style: normal;
+}
+
+header{
+	display:flex;
+	flex-direction:column;
+	margin-bottom:5px;
+}
+
+h1 {
+	color:#228EE3;
+	font-size: 40px;
+	text-align: center;
+	background-color:#010101;
+	margin-bottom: 0px;
+	font-family: "Edu SA Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.container {
+	display:flex;
+}
+
+.navigation{
+	display: inline-flex;
+}
+
+	.navigation li{
+		background-color:#228EE3;
+		border-radius: 3px;
+		margin:20px;
+		margin-left: 0px;
+		padding:0px;
+		list-style: none;
+	}
+
+
+.left {
+	background-color:#6633C6;
+	flex-grow:2;
+	max-width:100px;
+	border-radius:5px;
+}
+
+.icon{
+	position:fixed;
+	bottom:0;
+	right:0;
+	width:90px;
+}
+
+#sticker_toothless{
+	position: absolute;
+	top:380px;
+	left:0px;
+	width: 300px;	
+	transform:rotate(10deg);
+}
+#sticker_aang{
+	position: absolute;
+	left:0px;
+	top:400px;
+	width:120px;
+}
+#sticker_hiccup{
+	position:absolute;
+	left:0px;
+	top:3500px;
+	width:100px;
+}
+#sticker_long{
+	position: absolute;
+	left:280px; 
+	top: 1400px;
+	width: 180px;
+}
+#sticker_ironman{
+	position: absolute;
+	left:0px;
+	top: 2680px;
+	width:100px;
+}
+#sticker_astrid{
+	position: absolute;
+	left: 130px;
+	top: 680px;
+	width:89px;
+}
+#sticker_blue{
+	position:absolute;
+	left:0px;
+	top:5650px;
+	width:100px;
+}
+#sticker_kirby{
+	position:absolute;
+	left:0px;
+	top:450px;
+	width:100px;
+}
+#sticker_mushu{
+	position: absolute;
+	left: 620px;
+	top: 5330px;
+	width: 150px;
+}
+#sticker_mushu2{
+	position: absolute;
+	left: 1100px;
+	top: 7050px;
+	width: 150px;
+}
+#sticker_momo{
+	position: absolute;
+	left: 200px;
+	top:445px;
+	width:100px;
+}
+#sticker_appa{
+	position: absolute;
+	left:0px;
+	top:700px;
+	width:150px;
+}
+#sticker_korra{
+	position: absolute;
+	top: 500px;
+	width:200px;
+	left:1540px;
+}
+#sticker_bait{
+	position: absolute;
+	top: 2200px;
+	width:120px;
+	left: 140px;
+}
+#sticker_sprig{
+	position: absolute;
+	width: 100px;
+	top: 1100px;
+	left:600px;
+}
+#sticker_anne{
+	position:absolute;
+	width:100px;
+	top:1000px;
+	left:0px;
+}
+#sticker_sasha{
+	position: absolute;
+	width:150px;
+	top: 1100px;
+	left: 1570px;
+}
+#sticker_marcy{
+	position: absolute;
+	width:150px;
+	top:850px;
+	left:1570px;
+}
+#sticker_jake{
+	position: absolute;
+	width:150px;
+	top:1307px;
+	left:700px;
+}
+#sticker_jinx{
+	position: absolute;
+	top:1900px;
+	width:100px;
+	left:0px;
+}
+#sticker_luz{
+	position: absolute;
+	top:1500px;
+	width: 100px;
+	left:0px;
+}
+#sticker_katara{
+	position: absolute;
+	top:670px;
+	left:50px
+}
+#sticker_mario{
+	position: absolute;
+	top: 420px;
+	width:500px;
+	left:1000px;
+}
+#sticker_sokka{
+	position: absolute;
+	top:300px;
+	width:100px;
+	left:700px;
+}
+#sticker_babyking{
+	position: absolute;
+	width:100px;
+	top:500px;
+	left:0px;
+}
+
+.right{
+	display: flex;
+	flex-flow: wrap;
+	
+}
+
+.text /*only on the games page*/ {
+	background-color:forestgreen;
+	border-radius:5px;
+	margin:7px;
+	display:block;
+	max-width:400px;
+	text-align:center;
+}
+
+.main {
+	background-color:#228EE3;
+	padding: 5px;
+	margin-left: 7px;
+	margin-right:5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	max-width:49%;
+	border-color:#0029FF;
+	border-style: double;
+}
+
+.todomain{
+	display:inline-flex;
+	background-color:#5AA136;
+	flex-grow:2;
+	padding: 5px;
+	margin-left: 5px;
+	margin-right:5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	max-width:49%;
+	border-color:#0029FF;
+	border-style: double;
+}
+
+.tvmain{
+	background-color:#228EE3;
+	padding: 5px;
+	margin-left: 7px;
+	margin-right:5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	max-width:98%;
+	border-color:#0029FF;
+	border-style: double;
+}
+
+
+
+.item{
+	display:inline-flex;
+	flex-direction:row;
+}
+
+.poster{
+	display: inline-flex;
+}
+
+.review{
+	display:flex;
+	margin-left: 7px;
+	flex-direction:column;
+}
+
+.tvreview{
+	display:flex;
+	margin-left: 7px;
+	margin-bottom: 40px;
+	flex-direction:row;
+	max-width: 700px;
+}
+
+.trailer{
+	margin-left: 5px;
+}
+
+iframe{
+	width: 560px;
+	height:315px;
+	object-fit: contain;
+}
+
+body {
+	background-image: url("images/lined_paper.jpg");
+	background-size:contain;
+	background-repeat: repeat;
+	max-width:1920px;
+	max-height: 900px;
+	height:1080px;
+}
+
+h2{
+	color:aliceblue;
+	font-size:40px;
+	text-align: center;
+	background-color:#541DC1;
+	border:groove
+}
+
